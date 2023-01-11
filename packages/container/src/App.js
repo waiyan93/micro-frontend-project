@@ -1,6 +1,6 @@
 import React, { lazy, Suspense, useState } from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import { StylesProvider, createGenerateClassName } from '@material-ui/core';
+import { StylesProvider, createGenerateClassName } from '@material-ui/core/styles';
 
 import Header from './components/Header';
 import Progress from './components/Progress';
